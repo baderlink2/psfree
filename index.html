@@ -1,6 +1,6 @@
 <html>
 <meta charset="utf-8">
-<title>The Wolf Host Auto Exploit</title>
+<title>BADERLINK JAILBREAK 9.00 NEW PSFREE UMTX2</title>
 <style>
 html, body {
 background-image: url("img/logo.png");
@@ -406,46 +406,6 @@ function load_pocB(){
  };
 }
 
-function load_PSXITA1gb(){
-progress.innerHTML="Linux Loader 1GB loading... please wait"; 
-LoadedMSG="LinuxLoader 1GB Loaded";
-PLfile = "./paylode/PSXITA1gb.bin";
-var script = document.createElement('script');script.src = "./paylode/MiraLoader.js";document.getElementsByTagName('head')[0].appendChild(script);
-if(sessionStorage.Payload!="yes"){setTimeout(load_poc2, 500);} else {load_pocB();}
-}
-
-function load_PSXITA2gb(){
-progress.innerHTML="Linux Loader 2GB loading... please wait"; 
-LoadedMSG="LinuxLoader 2GB Loaded";
-PLfile = "./paylode/PSXITA2gb.bin";
-var script = document.createElement('script');script.src = "./paylode/MiraLoader.js";document.getElementsByTagName('head')[0].appendChild(script);
-if(sessionStorage.Payload!="yes"){setTimeout(load_poc2, 500);} else {load_pocB();}
-}
-
-function load_PSXITA3gb(){
-progress.innerHTML="Linux Loader 3GB loading... please wait"; 
-LoadedMSG="LinuxLoader 3GB Loaded";
-PLfile = "./paylode/PSXITA3gb.bin";
-var script = document.createElement('script');script.src = "./paylode/MiraLoader.js";document.getElementsByTagName('head')[0].appendChild(script);
-if(sessionStorage.Payload!="yes"){setTimeout(load_poc2, 500);} else {load_pocB();}
-}
-
-function load_PSXITA4gb(){
-progress.innerHTML="Linux Loader 4GB loading... please wait"; 
-LoadedMSG="LinuxLoader 4GB Loaded";
-PLfile = "./paylode/PSXITA4gb.bin";
-var script = document.createElement('script');script.src = "./paylode/MiraLoader.js";document.getElementsByTagName('head')[0].appendChild(script);
-if(sessionStorage.Payload!="yes"){setTimeout(load_poc2, 500);} else {load_pocB();}
-}
-
-function load_PSXITA5gb(){
-progress.innerHTML="Linux Loader 5GB loading... please wait"; 
-LoadedMSG="LinuxLoader 5GB Loaded";
-PLfile = "./paylode/PSXITA5gb.bin";
-var script = document.createElement('script');script.src = "./paylode/MiraLoader.js";document.getElementsByTagName('head')[0].appendChild(script);
-if(sessionStorage.Payload!="yes"){setTimeout(load_poc2, 500);} else {load_pocB();}
-}
-
 
 function load_goldhen(){
     progress.innerHTML="Gold HEN loading... please wait";
@@ -455,200 +415,6 @@ function load_goldhen(){
     load_pocB();
 }
 
-function load_enableupdate(){
-    progress.innerHTML="Payload  (Enable Update)"; LoadedMSG="Loaded (Enable Update)";
-    setTimeout(function(){ let array = loadFile('./paylode/enableupdate.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_disableupdate(){
-    progress.innerHTML="Payload....(Disable Update)"; LoadedMSG="Loaded (Disable Update)";
-    setTimeout(function(){ let array = loadFile('./paylode/disableupdates.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_App2usb(){
-    progress.innerHTML="Payload....(App2usb)"; LoadedMSG="Loaded (App2usb)";
-    setTimeout(function(){ let array = loadFile('./paylode/app2usb.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_Dumper(){
-    progress.innerHTML="Payload....(Dumper)"; LoadedMSG="Loaded  (Dumper)";
-    setTimeout(function(){ let array = loadFile('./paylode/dumper.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_HistoryBlocker(){
-    progress.innerHTML="Payload....(History Blocker)"; LoadedMSG="Loaded (History Blocker)";
-    setTimeout(function(){ let array = loadFile('./paylode/historyblocker.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_kerneldumper(){
-    progress.innerHTML="Payload....(Kernel Dumper)"; LoadedMSG="Loaded (Kernel Dumper)";
-    setTimeout(function(){ let array = loadFile('./paylode/kerneldumper.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_ps4debug(){
-    progress.innerHTML="Payload....(Ps4 Debug)"; LoadedMSG="Loaded (Ps4 Debug)";
-    setTimeout(function(){ let array = loadFile('./paylode/ps4debug.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_pkgbackup(){
-    progress.innerHTML="Payload....(pkg backup)"; LoadedMSG="Loaded (pkg backup)";
-    setTimeout(function(){ let array = loadFile('./paylode/pkgbackup.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_WebRTE(){
-    progress.innerHTML="Payload....(WebRTE)"; LoadedMSG="Loaded (WebRTE)";
-    setTimeout(function(){ let array = loadFile('./paylode/webrte.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_ArabicGuy100(){
-    progress.innerHTML="Payload....(ArabicGuy Mod 1.00)"; LoadedMSG="Loaded (ArabicGuy Mod 1.00)";
-    setTimeout(function(){ let array = loadFile('./paylode/arabicguy100.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_ArabicGuy127(){
-    progress.innerHTML="Payload....(ArabicGuy Mod 1.27)"; LoadedMSG="Loaded (ArabicGuy Mod 1.27)";
-    setTimeout(function(){ let array = loadFile('./paylode/arabicguy127.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_ArabicGuy132(){
-    progress.innerHTML="Payload....(ArabicGuyMod 1.32)"; LoadedMSG="Loaded (ArabicGuyMod 1.32)";
-    setTimeout(function(){ let array = loadFile('./paylode/arabicguy132.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_Beefqueef138(){
-    progress.innerHTML="Payload....(Beef Queef Mod 1.38)"; LoadedMSG="Loaded (Beef Queef Mod 1.38)";
-    setTimeout(function(){ let array = loadFile('./paylode/beefqueef138.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_Beefqueef147(){
-    progress.innerHTML="Payload....(Beef Queef Mod 1.47)"; LoadedMSG="Loaded (Beef Queef Mod 1.47)";
-    setTimeout(function(){ let array = loadFile('./paylode/beefqueef147.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_Lush138(){
-    progress.innerHTML="Payload....(Expulsions Mod 1.38)"; LoadedMSG="Loaded (Expulsions Mod 1.38)";
-    setTimeout(function(){ let array = loadFile('./paylode/Lush138.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_WildeModz132(){
-    progress.innerHTML="Payload....(Wilde Modz Mod 1.32)"; LoadedMSG="Loaded (Wilde Modz Mod 1.32)";
-    setTimeout(function(){ let array = loadFile('./paylode/WildeModz132.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-
-function load_WildeModz138(){
-    progress.innerHTML="Payload....(Wilde Modz 1.38)"; LoadedMSG="Loaded (Wilde Modz 1.38)";
-    setTimeout(function(){ let array = loadFile('./paylode/WildeModz138.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_WildeModz147(){
-    progress.innerHTML="Payload....(GTA Modz 1.47)"; LoadedMSG="Loaded (GTA Modz 1.47)";
-    setTimeout(function(){ let array = loadFile('./paylode/WildeModz148.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_Lamance138(){
-    progress.innerHTML="Payload....(Lamance 1.38)"; LoadedMSG="Loaded (Lamance 1.38)";
-    setTimeout(function(){ let array = loadFile('./paylode/Lamance.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_modRDE2100(){
-    progress.innerHTML="Payload....(Rd2 Mod 1.00)"; LoadedMSG="Loaded (Rd2 Mod 1.00)";
-    setTimeout(function(){ let array = loadFile('./paylode/oystersmenu100.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_modRDE2113(){
-    progress.innerHTML="Payload....(Rd2 Mod 1.13)"; LoadedMSG="Loaded (Rd2 Mod 1.13) ";
-    setTimeout(function(){ let array = loadFile('./paylode/oystersmenu113.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_modRDE2119(){
-    progress.innerHTML="Payload....(Rd2 Mod 1.19)"; LoadedMSG="Loaded (Rd2 Mod 1.19)";
-    setTimeout(function(){ let array = loadFile('./paylode/oystersmenu119.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_modRDE2124(){
-    progress.innerHTML="Payload....( Rd2 Mod 1.24)"; LoadedMSG="Loaded ( Rd2 Mod 1.24)";
-    setTimeout(function(){ let array = loadFile('./paylode/oystersmenu124.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_modRDE2129(){
-    progress.innerHTML="Payload....( Rd2 Mod 1.29)"; LoadedMSG="Loaded (Rd2 Mod 1.29)";
-    setTimeout(function(){ let array = loadFile('./paylode/oystersmenu129.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_NorthBeta(){
-    progress.innerHTML="Payload....( North Beta 1.29)"; LoadedMSG="Loaded (North Beta 1.29)";
-    setTimeout(function(){ let array = loadFile('./paylode/NorthBeta011.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_fan(){
-    progress.innerHTML="Payload....(FAN SPEED)"; LoadedMSG="Loaded (FAN SPEED)";
-    let array = loadFile("./paylode/fan" +tempC.value+ ".bin.bz2");
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_CopyCH(){
-    progress.innerHTML="Payload....(CopyCh)"; LoadedMSG="Loaded (Copych)";
-    setTimeout(function(){ let array = loadFile('./paylode/Copych.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_temperature(){
-    progress.innerHTML="Payload....(temperature ps4)"; LoadedMSG="Loaded (temperature ps4)";
-    setTimeout(function(){ let array = loadFile('./paylode/temperature.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function load_toolbox(){
-    progress.innerHTML="Payload....(toolbox ps4)"; LoadedMSG="Loaded (toolbox ps4)";
-    setTimeout(function(){ let array = loadFile('./paylode/toolbox.bin.bz2');}, 50);
-    out_jb = "AllPL";     setTimeout(load_pocj, 500);
-}
-
-function Bloader(){
- st.innerHTML="Payload loading... please wait";
- var payload_buffer = chain.syscall(477, 0x0, 0x300000, 0x7, 0x1000, 0xFFFFFFFF, 0);
- var payload_loader = p.malloc32(0x1000);
- var BLDR = payload_loader.backing;
- BLDR[0]=0x56415741;BLDR[1]=0x83485541;BLDR[2]=0x894818EC;BLDR[3]=0xC748243C;BLDR[4]=0x10082444;BLDR[5]=0x483C2302;BLDR[6]=0x102444C7;BLDR[7]=0x00000000;BLDR[8]=0x000002BF;BLDR[9]=0x0001BE00;BLDR[10]=0xD2310000;BLDR[11]=0x00009CE8;BLDR[12]=0xC7894100;BLDR[13]=0x8D48C789;BLDR[14]=0xBA082474;BLDR[15]=0x00000010;BLDR[16]=0x000095E8;BLDR[17]=0xFF894400;BLDR[18]=0x000001BE;BLDR[19]=0x0095E800;BLDR[20]=0x89440000;BLDR[21]=0x31F631FF;BLDR[22]=0x0062E8D2;BLDR[23]=0x89410000;BLDR[24]=0x2C8B4CC6;BLDR[25]=0x45C64124;BLDR[26]=0x05EBC300;BLDR[27]=0x01499848;BLDR[28]=0xF78944C5;BLDR[29]=0xBAEE894C;BLDR[30]=0x00001000;BLDR[31]=0x000025E8;BLDR[32]=0x7FC08500;BLDR[33]=0xFF8944E7;BLDR[34]=0x000026E8;BLDR[35]=0xF7894400;BLDR[36]=0x00001EE8;BLDR[37]=0x2414FF00;BLDR[38]=0x18C48348;BLDR[39]=0x5E415D41;BLDR[40]=0x31485F41;BLDR[41]=0xC748C3C0;BLDR[42]=0x000003C0;BLDR[43]=0xCA894900;BLDR[44]=0x48C3050F;BLDR[45]=0x0006C0C7;BLDR[46]=0x89490000;BLDR[47]=0xC3050FCA;BLDR[48]=0x1EC0C748;BLDR[49]=0x49000000;BLDR[50]=0x050FCA89;BLDR[51]=0xC0C748C3;BLDR[52]=0x00000061;BLDR[53]=0x0FCA8949;BLDR[54]=0xC748C305;BLDR[55]=0x000068C0;BLDR[56]=0xCA894900;BLDR[57]=0x48C3050F;BLDR[58]=0x006AC0C7;BLDR[59]=0x89490000;BLDR[60]=0xC3050FCA;
- chain.syscall(74, payload_loader, 0x4000, (0x1 | 0x2 | 0x4));
- var pthread = p.malloc(0x10); {
-  chain.fcall(window.syscalls[203], payload_buffer, 0x300000);
-  chain.fcall(libKernelBase.add32(OFFSET_lk_pthread_create), pthread, 0x0, payload_loader, payload_buffer);
- }
- chain.run();
- Binset();
-}
-	
-function startpoc() {
-	StartTimer();
-	setTimeout(run_psfree,1500);
-}
 	
 function CalcTime(dur){hrs=Math.floor(dur/1000/60/60);min=Math.floor(dur/1000/60-hrs*60);sec=Math.floor(dur/1000-min*60);mil=dur.toString().slice(-3);if (min!=0){ShowDuration=" - WK Exploited In : "+min+" minute"+(min==1?"":"s")+", "+sec+" second"+(sec==1?"":"s");}else {ShowDuration=" - WK Exploited In: "+sec+" second"+(sec==1?"":"s");}}
 function StartTimer(){StartTime=Date.now();}
@@ -752,59 +518,20 @@ function EndTimer(){EndTime=Date.now();CalcTime(EndTime=Date.now()-StartTime);do
 <div id="spoiler2" style="display:none"> <br>
 </div>
 <div id="spoiler3" style="display:none"> <br>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_enableupdate()"onMouseOver="progress.innerHTML='Enable-Updates v1.0 - By Al Azif'"><img src="img/Enable.png "><span class="TextCaption">Enable</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_disableupdate()"onMouseOver="progress.innerHTML='Disable-Updates v1.0 - By Al Azif'"><img src="img/Disable.png"><span class="TextCaption">Disable</span></a>
 </div>
 <div id="spoiler4" style="display:none">
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_App2usb()"onMouseOver="progress.innerHTML='Move installed games to an external USB drive- By Al Azif'"><img src="img/AppToUsb.png"><span class="TextCaption">App2usb</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_Dumper()"onMouseOver="progress.innerHTML='It Is The Process Pf Copying CD PS4 And Putting It On USB- By Al Azif'"><img src="img/Dumper.png"><span class="TextCaption">Dumper</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_pkgbackup()"onMouseOver="progress.innerHTML='progress.innerHTML='This is a pkg backup for usb- By Al Azif'"><img src="img/pkgbackup.png"><span class="TextCaption">PKG Backup</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_HistoryBlocker()" onMouseOver="progress.innerHTML='Run history blocker on PS4- By Al Azif'"><img src="img/HistoryBlocker.png"><span class="TextCaption">History Blocker</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_temperature()" onMouseOver="progress.innerHTML='payload gives you notification of how hot your PlayStation 4 is'"><img src="img/temperature.png"125"/><span class="TextCaption">temperature</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_toolbox()"onMouseOver="progress.innerHTML='progress.innerHTML='This is a TOOL BOX for usb- By Al Azif'"><img src="img/toolbox.png"><span class="TextCaption">TOOL BOX</span></a>
 <br>
-&nbsp;&nbsp;&nbsp;<a href="https://pkg-zone.com/install" onMouseOver="progress.innerHTML='You can now install the Homebrew Store using only the PKG-Zone website through the Browser!'"><img src="img/hb.png"><span class="TextCaption"> install HB Store</span></a>
-&nbsp;&nbsp;&nbsp;<a href="paylode/webactivate.html" onMouseOver="progress.innerHTML='This is a debugger for PlayStation 4 and a save transfer for games without a PC without PC'"><img src="img/ps4debug.png"125"/><span class="TextCaption">Web-Activator</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_ps4debug()" onMouseOver="progress.innerHTML='This is a debugger for PlayStation 4 and a save transfer for gameswithout PC- By Al Azif'"><img src="img/Web-Activator.png"><span class="TextCaption">Ps4debug</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_Bloader()"onMouseOver="progress.innerHTML='Loads a bin file sent to the PS4 IP address on port 9021'"><img src="img/binloader.png"><span class="TextCaption">Bin Loader</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_kerneldumper()" onMouseOver="progress.innerHTML='Changes the internal clock of the PS4- By Al Azif'"><img src="img/KernelDumper.png"><span class="TextCaption">Kernel Dumper</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_fan()"onMouseOver="progress.innerHTML='FAN SPEED'"><img src="img/fanspeed.png"><span class="TextCaption"> FAN SPEED </span></a><select id="tempC"></select>&#176;C</a>
 </div>
 <div id="spoiler5" style="display:none">
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_WebRTE()"onMouseOver="progress.innerHTML='WebRTE v1.0 on PS4- By Karo'"><img src="img/WebRTE.png"><span class="TextCaption">WebRTE</span></a>
-&nbsp;&nbsp;&nbsp;<a href="http://wolf2022.ir/trainer/index.html"onMouseOver="progress.innerHTML='PS4 TRAINER Offline'"><img src="img/urtrainer.png"><span class="TextCaption">PS4 Trainer</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_CopyCH()"onMouseOver="progress.innerHTML='New Payload for copy json and shn files from USB to PS4 GoldHen path By-Karo'"><img src="img/CopyCH.png"><span class="TextCaption">Copy ( json OR Shn ) USB</span></a>
 </div>
 <div id="spoiler6" style="display:none">
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_PSXITA1gb()" onMouseOver="progress.innerHTML='Linux Vram Loader 1GB For Pro Consoles - 9.00 Port By PSXita'"><img src="img/links2.png"><span class="TextCaption">Linux Psxiat 1GB</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_PSXITA2gb()" onMouseOver="progress.innerHTML='Linux Vram Loader 2GB For Pro Consoles - 9.00 Port By PSXita '"><img src="img/links2.png"><span class="TextCaption">Linux Psxiat 2GB</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_PSXITA3gb()" onMouseOver="progress.innerHTML='Linux Vram Loader 3GB For Pro Consoles - 9.00 Port By PSXita '"><img src="img/links2.png"><span class="TextCaption">Linux Psxiat 3GB</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_PSXITA4gb()" onMouseOver="progress.innerHTML='Linux Vram Loader 4GB For Pro Consoles - 9.00 Port By PSXita '"><img src="img/links2.png"><span class="TextCaption">Linux Psxiat 4GB</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_PSXITA5gb()" onMouseOver="progress.innerHTML='Linux Vram Loader 5GB For Pro Consoles - 9.00 Port By PSXita '"><img src="img/links2.png"><span class="TextCaption">Linux Psxiat 5GB</span></a>
 </div>
 <div id="spoiler7" style="display:none"><br>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_modRDE2100()"onMouseOver="progress.innerHTML='Red Dead Redemption II Oysters Mod v1.3.8 For Update v1.00 -  By RF0oDxM0Dz'"><img src="img/rd2.png"><span class="TextCaption">Red Dead 1.00</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_modRDE2113()" onMouseOver="progress.innerHTML='Red Dead Redemption II Oysters Mod v1.3.8 For Update v1.13 -  By RF0oDxM0Dz'"><img src="img/rd2.png"><span class="TextCaption">Red Dead 1.13</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_modRDE2119()" onMouseOver="progress.innerHTML='Red Dead Redemption II Oysters Mod v1.3.8 For Update v1.19 -  By RF0oDxM0Dz'"><img src="img/rd2.png"><span class="TextCaption">Red Dead 1.19</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_modRDE2124()" onMouseOver="progress.innerHTML='Red Dead Redemption II Oysters Mod v1.3.8 For Update v1.24 -  By RF0oDxM0Dz'"><img src="img/rd2.png"><span class="TextCaption">Red Dead 1.24</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_modRDE2129()" onMouseOver="progress.innerHTML='Red Dead Redemption II Oysters Mod v1.3.8 For Update v1.29 -  By RF0oDxM0Dz'"><img src="img/rd2.png"><span class="TextCaption">Red Dead 1.29</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_NorthBeta()" onMouseOver="progress.innerHTML='Red Dead Redemption II North Beta Mod v0.11 For Update v1.29 - By David133Hax'"><img src="img/rd2.png"><span class="TextCaption">North Beta 1.29</span></a>
 
 </div>
 <div id="spoiler8" style="display:none">
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_ArabicGuy100()" onMouseOver="progress.innerHTML='ArabicGuy For GTA V Update v1.00 - By RF0oDxM0Dz'"><img src="img/gta2.png"><span class="TextCaption">ArabicGuy 1.00</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_ArabicGuy127()" onMouseOver="progress.innerHTML='ArabicGuy For GTA V Update v1.27 - By RF0oDxM0Dz'"><img src="img/gta2.png"><span class="TextCaption">ArabicGuy 1.27</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_ArabicGuy132()" onMouseOver="progress.innerHTML='ArabicGuy For GTA V Update v1.38 - By RF0oDxM0Dz'"><img src="img/gta2.png"><span class="TextCaption">ArabicGuy 1.32</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_Beefqueef138()"onMouseOver="progress.innerHTML='BeefQueefMod For GTA V Update v1.38 - By GraFfiX'"><img src="img/gta2.png"><span class="TextCaption">Beef Queef 1.38</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_Beefqueef147()"onMouseOver="progress.innerHTML='BeefQueefMod For GTA V Update v1.47 - By GraFfiX'"><img src="img/gta2.png"><span class="TextCaption">Beef Queef 1.47</span></a>
 <BR>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_Lamance138()"onMouseOver="progress.innerHTML='Lamance v0.9 For GTA V Update v1.38 - By David133Hax'"><img src="img/gta2.png"><span class="TextCaption">Lamance 1.38</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_Lush138()"onMouseOver="progress.innerHTML='Expulsion Mod Menu v4.0 For GTA V Update v1.38 - By LushModz'"><img src="img/gta2.png"><span class="TextCaption">Expulsions 1.38</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_WildeModz132()"onMouseOver="progress.innerHTML='WildeModz v1.2 For GTA V Update v1.32 - By Wilde Modz'"><img src="img/gta2.png"><span class="TextCaption">Wilde Modz 1.32</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_WildeModz138()"onMouseOver="progress.innerHTML='WildeModz v1.7 For GTA V Update v1.38 - By Wilde Modz'"><img src="img/gta2.png"><span class="TextCaption">Wilde Modz 1.38</span></a>
-&nbsp;&nbsp;&nbsp;<a href="#" onclick="load_WildeModz147()"onMouseOver="progress.innerHTML='GTA Modz v1.7 For GTA V Update v1.47 - By Wilde Modz'"><img src="img/gta2.png"><span class="TextCaption">Wilde Modz 1.47</span></a>
 </div>
 <a  style="margin-top: 190px;">
-<h1 style="margin-top: 0px; color: red;">Special Thanks to:<a href="https://twitter.com/sleirsgoevy" style="color:white; margin-left: 15px;">@sleirsgoevy</a><a style="color:white; margin-left: 15px;">ChendoChap</a><a href="https://twitter.com/SpecterDev" style="color:white; margin-left: 15px;">@SpecterDev</a><a style="color:white; margin-left: 15px;">SiSTR0</a><a href="https://twitter.com/Znullptr" style="color:white; margin-left: 15px;">@Znullptr</a><a style="color:white; margin-left: 15px;">All developers who contributed to the ps4 scene ...</a></h1>
 </div>
 </html>
