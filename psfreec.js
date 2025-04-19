@@ -696,6 +696,7 @@ async function run() {
         fset.rows = '';
         fset.cols = '';
     }
+    debug_log('STAGE: achieve arbitrary read/write primitive');
     await make_arw(rdr, view2, pop);
     let prim = {
         read1(addr) {
