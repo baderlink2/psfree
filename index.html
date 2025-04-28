@@ -20,14 +20,12 @@ if (window.applicationCache.status=='0'){window.location.replace("cache.html");}
 <h1 id="msgs2" style="font-size: 30px;margin-top: 77px;margin-bottom: 412px;">Jailbreak Loading Please Wait</h1>
 </div>
 <div id="menu" style="display: none">
-</br></br></br></br></br></br></br></br></br></br>
-<h1 style="font-size: 18px;color: yellow;">Select GOLDHEN</h1>
-<button class="btn" onmouseover="msgs.innerHTML='GoldHEN v2.4b18.3'" onmouseout="msgs.innerHTML='WELCOME TO BADERLINK NEW PSFREE'" onclick="load_goldhen23()"> GoldHEN v2.4b18.3 </button>
-<br>
+<h1 id="status_msg" style="font-size: 24px;color: yellow;margin-top: 200px;text-align: center;"></h1>
 <script>
 function jbdone(){
 document.getElementById("menu").style.display = "block";
 document.getElementById("progress").style.display = "none";
+load_poc();
 }
 
 function linux_group(){
@@ -50,7 +48,8 @@ document.getElementById("progress").style.display = "none";
 }
 
 function allset(){
-msgs.innerHTML = LoadedMSG
+  let statusElement = document.getElementById("status_msg");
+  statusElement.innerHTML = LoadedMSG + "<br><br>GoldHEN activated automatically By BADERLINK."; // Updated explanatory text to English
 }
 
   function loadFile(fileName) {
@@ -130,7 +129,7 @@ var payload_buffer = chain.syscall(477, 0, 0x300000, 7, 0x1002, -1, 0);
 function load_poc(){
  var req = new XMLHttpRequest();
  req.responseType = "arraybuffer";
- req.open('GET', PLfile);
+ req.open('GET', "goldhen.bin");
  req.send();
  req.onreadystatechange = function () {
   if (req.readyState == 4) {
@@ -145,6 +144,7 @@ function load_poc(){
    pl.set(shellcode,0);
    var pthread = p.malloc(0x10);
    chain.call(libKernelBase.add32(OFFSET_lk_pthread_create), pthread, 0x0, payload_buffer, 0);
+   LoadedMSG = "GoldHEN v2.4b18.3 Loaded Successfully"; // English message
    allset();
   }
  };
